@@ -35,10 +35,6 @@ This project is a task management application that helps users organize and keep
   - `Button`
   - `FlatList` or `SectionList` for rendering lists of tasks.
   - `Image` for icons and displaying images
-- Include at least eight categories such as Exercise, Study, Code, Cook, etc.
-- Provide a list of 15 ongoing tasks.
-- Style the application to closely match the provided UI design.
-- Use custom components throughout the application.
 
 ## Prerequisites
 
