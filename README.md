@@ -1,23 +1,17 @@
 # Student Information
 - Name: Theodore Gyaqueh Abbey
 - Student ID: 11343393
-  
+
+# Prerequisites
+
+- Node.js
+- npm or yarn
+- React Native CLI
 
 # Task Management App
 
 This project is aimed at recreating a task management application based on a provided UI mockup. The application includes various categories and an ongoing task list, utilizing React Native's core components.
 
-## Table of Contents
-
-- [Student Information](#student-information)
-- [Task Management App](#task-management-app)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Features](#features)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Usage](#usage)
-- [Screenshot](#screenshot)
 
 ## Introduction
 
@@ -36,12 +30,60 @@ This project is a task management application that helps users organize and keep
   - `FlatList` or `SectionList` for rendering lists of tasks.
   - `Image` for icons and displaying images
 
-## Prerequisites
+## Components
 
-Before you begin, ensure you have met the following requirements:
-- You have installed the latest version of Node.js and npm.
-- You have installed React Native CLI or Expo CLI.
-- You have a development environment set up for React Native (iOS/Android emulator or a physical device).
+### View
+
+Used to create the basic structure of the app's user interface.
+
+### Text
+
+Used to display text in the application, such as task titles and descriptions.
+
+### ScrollView
+
+Allows scrolling of the content within the app, useful for viewing lists of tasks that extend beyond the screen size.
+
+### TextInput
+
+Used to input text, such as adding new tasks or updating existing ones.
+
+### StyleSheet
+
+Manages styles for the components to match the UI mockup.
+
+### Button
+
+Interactive buttons for actions like adding tasks or navigating between different sections of the app.
+
+### FlatList / SectionList
+
+Renders lists of tasks. FlatList is used for a simple list, while SectionList is used for categorized lists.
+
+### Image
+
+Displays icons and images within the app.
+
+## Categories
+
+The app includes at least eight categories:
+- Exercise
+- Study
+- Code
+- Cook
+- Read
+- Travel
+- Work
+- Relax
+
+## Tasks
+
+The application will provide a list of 15 ongoing tasks, distributed across the categories.
+
+## Custom Components
+
+The app utilizes custom components for modularity and code reusability. Each custom component is designed to handle specific parts of the user interface, enhancing the overall maintainability and scalability of the codebase.    
+
 
 ## Installation
 
