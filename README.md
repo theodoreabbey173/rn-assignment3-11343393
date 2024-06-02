@@ -89,7 +89,7 @@ The app utilizes custom components for modularity and code reusability. Each cus
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/task-management-app.git
+    git clone https://github.com/theodoreabbey173/rn-assignment3-11343393.git
     cd task-management-app
     ```
 
