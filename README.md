@@ -1,4 +1,4 @@
-# Student Information
+# User Information
 - Name: Theodore Gyaqueh Abbey
 - Student ID: 11343393
 
